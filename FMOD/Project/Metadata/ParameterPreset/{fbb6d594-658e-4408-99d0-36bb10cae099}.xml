@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{fbb6d594-658e-4408-99d0-36bb10cae099}">
+		<property name="name">
+			<value>Playback</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4586b2f3-9b9b-48a6-a8f1-e98fa8de3432}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f8ce9818-7f4a-4bca-a7e8-64aca18b084f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f8ce9818-7f4a-4bca-a7e8-64aca18b084f}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>On</value>
+			<value>Off</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
