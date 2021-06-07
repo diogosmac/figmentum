@@ -1137,3 +1137,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.07-15.45.39:461][554]LogSavePackage: Moving '../../../../../../Users/Rafael/Documents/djco-pet-store/Pet Store/Saved/FirstPersonExampleMap_Auto3E5445A384B4920F5E6787199E0451352.tmp' to '../../../../../../Users/Rafael/Documents/djco-pet-store/Pet Store/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
 [2021.06.07-15.45.39:465][554]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 3.041
 [2021.06.07-15.45.39:465][554]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 3.041
+[2021.06.07-16.03.02:331][152]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.06.07-16.03.05:386][152]LogSavePackage: Moving '../../../../../../Users/Rafael/Documents/djco-pet-store/Pet Store/Saved/FirstPersonExampleMapBB9BBCF74598B789324A32B346A5FBAD.tmp' to '../../../../../../Users/Rafael/Documents/djco-pet-store/Pet Store/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.06.07-16.03.05:404][152]LogSavePackage: Moving '../../../../../../Users/Rafael/Documents/djco-pet-store/Pet Store/Saved/FirstPersonExampleMap_BuiltData17A3B6BB4C8F0FCF99FE4782DC43B219.tmp' to '../../../../../../Users/Rafael/Documents/djco-pet-store/Pet Store/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.06.07-16.03.05:430][152]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-16.03.05:430][152]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.06.07-16.03.05:431][152]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
