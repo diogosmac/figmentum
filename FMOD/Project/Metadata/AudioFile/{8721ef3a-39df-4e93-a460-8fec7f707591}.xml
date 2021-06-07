@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{8721ef3a-39df-4e93-a460-8fec7f707591}">
+		<property name="assetPath">
+			<value>Impact (12).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.25</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee8cf136-77d0-49a3-a9ba-700211ddc400}</destination>
+		</relationship>
+	</object>
+</objects>
