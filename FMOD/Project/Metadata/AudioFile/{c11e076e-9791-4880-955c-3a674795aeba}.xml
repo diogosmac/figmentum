@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{c11e076e-9791-4880-955c-3a674795aeba}">
 		<property name="assetPath">
-			<value>Picking_Card.wav</value>
+			<value>Random/Picking_Card.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

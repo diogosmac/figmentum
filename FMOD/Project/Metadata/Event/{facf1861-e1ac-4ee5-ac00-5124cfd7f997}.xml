@@ -5,7 +5,7 @@
 			<value>Unlocking Door</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5494caaf-2153-4a36-a836-e9cd14108b12}</destination>
@@ -119,10 +119,14 @@
 		<relationship name="effects">
 			<destination>{69f80979-87be-4d5f-a8bf-f0750b82769a}</destination>
 			<destination>{68c0906a-5c22-4acf-ad22-21e1a5a41a58}</destination>
+			<destination>{08b43ed2-2bf6-4b43-b51a-9f91f5ea5338}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{29eb492e-f8ec-443a-9927-b66f3f6c835c}" />
 	<object class="SingleSound" id="{5e8216f8-b4f1-4866-9a3d-e7f52bbe2de9}">
+		<relationship name="modulators">
+			<destination>{97bedfad-dd53-4045-bde8-a7854594aa23}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{2da40acd-f9ed-4cb6-83b3-82e7e7c1554e}</destination>
 		</relationship>
@@ -136,5 +140,42 @@
 	<object class="MixerBusPanner" id="{d2b974df-09ed-4831-beb7-9285bdd52fdd}" />
 	<object class="MixerBusFader" id="{69f80979-87be-4d5f-a8bf-f0750b82769a}" />
 	<object class="SpatialiserEffect" id="{68c0906a-5c22-4acf-ad22-21e1a5a41a58}" />
+	<object class="ConvolutionReverbEffect" id="{08b43ed2-2bf6-4b43-b51a-9f91f5ea5338}">
+		<property name="endFrame">
+			<value>35777</value>
+		</property>
+		<property name="wetLevel">
+			<value>-40</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1.5</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7da7948f-9a8f-4c37-8607-b93816d7d967}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{97bedfad-dd53-4045-bde8-a7854594aa23}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>80</value>
+		</property>
+		<property name="holdTime">
+			<value>1600</value>
+		</property>
+		<property name="decayTime">
+			<value>880</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{5f870de6-36c1-4a47-88d1-33fab8391536}" />
 </objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{2da40acd-f9ed-4cb6-83b3-82e7e7c1554e}">
 		<property name="assetPath">
-			<value>Door Unlocked 3.wav</value>
+			<value>Door/Door Unlocked 3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
