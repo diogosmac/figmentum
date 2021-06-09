@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{9800e4c4-b0af-4e2a-9049-45711f1c0919}">
 		<property name="assetPath">
-			<value>Ambient/Light Hum 2.wav</value>
+			<value>Ambient/Diegetic/Light Hum 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
