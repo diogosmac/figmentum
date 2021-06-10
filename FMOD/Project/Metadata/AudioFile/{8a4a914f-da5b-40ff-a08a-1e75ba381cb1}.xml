@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{8a4a914f-da5b-40ff-a08a-1e75ba381cb1}">
+		<property name="assetPath">
+			<value>Footsteps/Fox/Dirt/DirtTouch (12).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.12501133786848073</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee8cf136-77d0-49a3-a9ba-700211ddc400}</destination>
+		</relationship>
+	</object>
+</objects>

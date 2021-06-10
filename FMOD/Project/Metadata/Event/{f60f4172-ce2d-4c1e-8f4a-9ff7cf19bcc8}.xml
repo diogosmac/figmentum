@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f60f4172-ce2d-4c1e-8f4a-9ff7cf19bcc8}">
 		<property name="name">
-			<value>Growl2</value>
+			<value>Breathy2</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -81,7 +81,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{a1a6a343-4d4f-4ffe-b085-4f66fbdbf6e8}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-16</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d32af606-c3e7-4676-911b-23e81927c7f9}</destination>
