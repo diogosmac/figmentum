@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{f0f0dd64-51a8-47f5-989b-a4c04882bd98}">
 		<property name="assetPath">
-			<value>Cardboard Opening.wav</value>
+			<value>Cardboard/Cardboard Opening.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

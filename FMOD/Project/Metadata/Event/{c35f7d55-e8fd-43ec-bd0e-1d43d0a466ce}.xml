@@ -86,6 +86,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{00015dbb-1dad-4e6d-b08d-afd690c3c9e1}">
+		<property name="volume">
+			<value>-20</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{288be47d-83ab-4bc6-bc07-433c8b09e448}</destination>
 		</relationship>
@@ -104,7 +107,7 @@
 	<object class="MixerBusPanner" id="{548c7121-1b0e-440f-9465-33d781336ff2}" />
 	<object class="MultiSound" id="{8796260b-e63e-4acb-a061-e596a0ef8895}">
 		<property name="length">
-			<value>0.36499999999999999</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="name">
 			<value>Touch</value>
@@ -140,10 +143,10 @@
 	</object>
 	<object class="MultiSound" id="{fa6ab066-7d48-471a-979b-62f00b0c14ca}">
 		<property name="start">
-			<value>0.54000000000000004</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="length">
-			<value>0.37499999999999989</value>
+			<value>0.63000000000000012</value>
 		</property>
 		<property name="name">
 			<value>Touch</value>
@@ -179,7 +182,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{aa9af567-4a19-4f64-807f-e48b2c1b55be}">
 		<property name="volume">
-			<value>-33</value>
+			<value>-43</value>
 		</property>
 		<property name="name">
 			<value>Touch</value>
@@ -196,7 +199,7 @@
 	</object>
 	<object class="MultiSound" id="{dcb9c73c-76c7-4631-8871-e88661b8671e}">
 		<property name="length">
-			<value>0.36499999999999999</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="maxVoices">
 			<value>16</value>
@@ -255,10 +258,10 @@
 	</object>
 	<object class="MultiSound" id="{4c041046-9382-4796-a2fd-4dac4520e96b}">
 		<property name="start">
-			<value>0.54000000000000004</value>
+			<value>0.47999999999999998</value>
 		</property>
 		<property name="length">
-			<value>0.37499999999999994</value>
+			<value>0.63000000000000012</value>
 		</property>
 		<property name="maxVoices">
 			<value>16</value>
@@ -317,7 +320,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d617f4e0-76ec-4cd3-98ef-21604b46b522}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-30</value>
 		</property>
 		<property name="name">
 			<value>Impact</value>
@@ -603,6 +606,8 @@
 	<object class="MixerBusEffectChain" id="{80489d1a-278c-4cc1-a7f0-546d61ca6882}">
 		<relationship name="effects">
 			<destination>{e7d31140-b2e5-40c3-9413-931e92a03bfd}</destination>
+			<destination>{b67b7355-454e-4708-adb3-613e70e3bd4a}</destination>
+			<destination>{b076c4f2-ee88-4fa1-ae95-4a78a07f6b06}</destination>
 			<destination>{fee55389-6d69-4c03-aeb2-5306061aa105}</destination>
 		</relationship>
 	</object>
@@ -1100,8 +1105,8 @@
 	<object class="MixerBusEffectChain" id="{0b8c3b4b-5423-4c4b-bb6f-8bb7436e8a52}">
 		<relationship name="effects">
 			<destination>{9d1999ff-d2ef-4254-91a5-e96c2c9d12c1}</destination>
-			<destination>{e926f752-d608-4124-a9bf-d0054ad3bfda}</destination>
 			<destination>{73aca3c8-915a-4637-8a26-634709566018}</destination>
+			<destination>{bb81bd93-fd54-461a-b094-2dfaad4cb347}</destination>
 			<destination>{8dc632ef-8439-4537-a936-4cdc221db888}</destination>
 		</relationship>
 	</object>
@@ -1125,24 +1130,7 @@
 			<value>-4</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{fee55389-6d69-4c03-aeb2-5306061aa105}" />
-	<object class="CompressorEffect" id="{9d1999ff-d2ef-4254-91a5-e96c2c9d12c1}">
-		<property name="threshold">
-			<value>-12.5</value>
-		</property>
-		<property name="ratio">
-			<value>8.19999981</value>
-		</property>
-	</object>
-	<object class="ConvolutionReverbEffect" id="{e926f752-d608-4124-a9bf-d0054ad3bfda}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-	</object>
-	<object class="SFXReverbEffect" id="{73aca3c8-915a-4637-8a26-634709566018}">
-		<property name="decayTime">
-			<value>1400</value>
-		</property>
+	<object class="SFXReverbEffect" id="{b67b7355-454e-4708-adb3-613e70e3bd4a}">
 		<property name="earlyDelay">
 			<value>0</value>
 		</property>
@@ -1164,6 +1152,66 @@
 		<property name="wetLevel">
 			<value>-8</value>
 		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{b076c4f2-ee88-4fa1-ae95-4a78a07f6b06}">
+		<property name="endFrame">
+			<value>32067</value>
+		</property>
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7f26d282-49a1-4ab4-b0c2-739caa2f0d88}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{fee55389-6d69-4c03-aeb2-5306061aa105}" />
+	<object class="CompressorEffect" id="{9d1999ff-d2ef-4254-91a5-e96c2c9d12c1}">
+		<property name="threshold">
+			<value>-12.5</value>
+		</property>
+		<property name="ratio">
+			<value>8.19999981</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{73aca3c8-915a-4637-8a26-634709566018}">
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>28.5</value>
+		</property>
+		<property name="density">
+			<value>66</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>8</value>
+		</property>
+		<property name="highCut">
+			<value>3600</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>73</value>
+		</property>
+		<property name="wetLevel">
+			<value>-8</value>
+		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{bb81bd93-fd54-461a-b094-2dfaad4cb347}">
+		<property name="endFrame">
+			<value>32067</value>
+		</property>
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7f26d282-49a1-4ab4-b0c2-739caa2f0d88}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{8dc632ef-8439-4537-a936-4cdc221db888}" />
 </objects>

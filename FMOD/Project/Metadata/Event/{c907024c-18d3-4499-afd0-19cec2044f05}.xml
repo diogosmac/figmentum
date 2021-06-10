@@ -5,7 +5,7 @@
 			<value>Closing Door</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5494caaf-2153-4a36-a836-e9cd14108b12}</destination>
@@ -119,6 +119,7 @@
 		<relationship name="effects">
 			<destination>{8d93fad9-7cec-44b6-b462-f8a13663133b}</destination>
 			<destination>{99feec76-094b-490f-af2f-5ec29c2d6fc7}</destination>
+			<destination>{1b3419a0-ecdc-49d1-af67-cc27ddf7d6ed}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d977c20f-109f-4de7-8701-173c30f22884}" />
@@ -135,6 +136,27 @@
 	</object>
 	<object class="MixerBusPanner" id="{08a44c91-f550-48a0-ad47-ec21db978297}" />
 	<object class="MixerBusFader" id="{8d93fad9-7cec-44b6-b462-f8a13663133b}" />
-	<object class="SpatialiserEffect" id="{99feec76-094b-490f-af2f-5ec29c2d6fc7}" />
+	<object class="SpatialiserEffect" id="{99feec76-094b-490f-af2f-5ec29c2d6fc7}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>8.40000057</value>
+		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{1b3419a0-ecdc-49d1-af67-cc27ddf7d6ed}">
+		<property name="endFrame">
+			<value>35777</value>
+		</property>
+		<property name="wetLevel">
+			<value>-32</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1.5</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7da7948f-9a8f-4c37-8607-b93816d7d967}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{579d2a2f-ac6b-4c96-9ec5-23ca627b189b}" />
 </objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{e7c96b69-2ec0-4240-b3ce-de4e28d350e0}">
 		<property name="assetPath">
-			<value>Cardboard Rustle.wav</value>
+			<value>Cardboard/Cardboard Rustle.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

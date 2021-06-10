@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{6f210cad-1410-48d9-8baf-104c5e074b60}">
 		<property name="assetPath">
-			<value>Impact (33).wav</value>
+			<value>Footsteps/Fox/Vents/Impact (33).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

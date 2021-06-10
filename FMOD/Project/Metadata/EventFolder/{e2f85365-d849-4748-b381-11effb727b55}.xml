@@ -5,7 +5,7 @@
 			<value>Dirt</value>
 		</property>
 		<relationship name="folder">
-			<destination>{daa4f235-1c0c-4095-8580-24b4dddddb01}</destination>
+			<destination>{0695a9fb-a64e-473a-9a54-c51dc8c80e65}</destination>
 		</relationship>
 	</object>
 </objects>
