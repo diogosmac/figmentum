@@ -86,6 +86,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a05ea540-ea31-43b2-ad34-9991285733ef}">
+		<property name="volume">
+			<value>-19.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a6a9bbf1-db0e-4e10-949c-9d894fa6a319}</destination>
 		</relationship>
@@ -104,7 +107,7 @@
 	<object class="MixerBusPanner" id="{7b906d46-bf9b-4018-bf57-181c43d155b2}" />
 	<object class="MultiSound" id="{6e4e7a62-843e-4614-8ef0-88f4f3a1d60e}">
 		<property name="length">
-			<value>0.36499999999999999</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<property name="name">
 			<value>Touch</value>
@@ -140,7 +143,7 @@
 	</object>
 	<object class="MultiSound" id="{4ceb3717-cf0e-4abc-8f39-dc5c781a9734}">
 		<property name="start">
-			<value>0.33500000000000002</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<property name="length">
 			<value>0.37499999999999989</value>
@@ -196,7 +199,7 @@
 	</object>
 	<object class="MultiSound" id="{e1ff0e89-9495-448e-97ed-7edf83191606}">
 		<property name="length">
-			<value>0.36499999999999999</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<property name="maxVoices">
 			<value>16</value>
@@ -255,7 +258,7 @@
 	</object>
 	<object class="MultiSound" id="{cb8fc6b8-2a91-4e88-99df-fe5c6a040485}">
 		<property name="start">
-			<value>0.33500000000000002</value>
+			<value>0.29999999999999999</value>
 		</property>
 		<property name="length">
 			<value>0.37499999999999994</value>
