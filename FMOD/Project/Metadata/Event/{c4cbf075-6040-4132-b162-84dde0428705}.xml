@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{c4cbf075-6040-4132-b162-84dde0428705}">
 		<property name="name">
-			<value>Picking Card</value>
+			<value>PickCard</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{ce5ba4ac-360c-4108-9bbc-a2b62d5055fe}</destination>
+			<destination>{b6271c62-38cd-40e7-8a9b-d924f49917f9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{dcd8d39c-cc43-47f1-aff0-7eed61c8a87c}</destination>

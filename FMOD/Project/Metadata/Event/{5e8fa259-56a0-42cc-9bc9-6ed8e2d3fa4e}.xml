@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{5e8fa259-56a0-42cc-9bc9-6ed8e2d3fa4e}">
 		<property name="name">
-			<value>Breathy 2</value>
+			<value>Growl2</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -81,7 +81,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{3440279b-abc1-4aad-a82c-a239288da1ba}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-13</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5b12cf14-4943-42a4-b7b8-0e335036ffa3}</destination>
@@ -210,7 +210,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>6.5</value>
 		</property>
 		<property name="curveShape">
 			<value>0.429291427</value>
@@ -221,7 +221,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-27</value>
+			<value>-18.3999996</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7d585c49-4dfa-4969-bd00-fe12a8100314}">
