@@ -122,6 +122,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{25c7b151-c992-4f4f-9f40-dcd8c7d8b39a}">
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{10050926-c95c-453c-8154-976cc094ff43}</destination>
 		</relationship>
@@ -159,7 +162,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{83fbf4bd-48d9-42f8-b084-0c36926705a8}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-19</value>
 		</property>
 		<property name="name">
 			<value>Bass</value>
@@ -200,7 +203,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{baab6ed8-56d3-4c64-a70f-abd580496d24}">
 		<property name="volume">
-			<value>-35</value>
+			<value>-25</value>
 		</property>
 		<property name="name">
 			<value>DirectImpact</value>
@@ -245,7 +248,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{58b60b69-9822-439a-8a05-9ed443a2b9bb}">
 		<property name="volume">
-			<value>-46</value>
+			<value>-42</value>
 		</property>
 		<property name="name">
 			<value>Stomp</value>
@@ -298,7 +301,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4f6ab1c4-ccf2-48ba-ae50-e6e95dd3b337}">
 		<property name="volume">
-			<value>-44</value>
+			<value>-36</value>
 		</property>
 		<property name="name">
 			<value>Creaking1</value>
@@ -351,7 +354,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c5c9ca82-84d2-46b5-8868-bab00611cc49}">
 		<property name="volume">
-			<value>-44</value>
+			<value>-36</value>
 		</property>
 		<property name="name">
 			<value>Creaking2</value>
@@ -919,6 +922,9 @@
 	</object>
 	<object class="SpatialiserEffect" id="{6e29ac82-40a6-49ad-8cc7-351fbf978b3c}" />
 	<object class="ThreeEQEffect" id="{9a5a9787-dad8-4e1f-8754-7d008ca24e1f}">
+		<property name="lowGain">
+			<value>-4</value>
+		</property>
 		<property name="highGain">
 			<value>-21</value>
 		</property>

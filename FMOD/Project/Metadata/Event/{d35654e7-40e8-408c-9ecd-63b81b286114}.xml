@@ -103,7 +103,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{b6316470-d9d0-4f9e-91bc-e89c6ef3928b}">
 		<property name="volume">
-			<value>-12</value>
+			<value>6</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5cf5ee75-0aea-4680-89a2-7424bb6473e9}</destination>
@@ -145,7 +145,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5a5a1a5b-a2c6-4bdc-ad01-8027624ca7a4}">
 		<property name="volume">
-			<value>-24</value>
+			<value>-21</value>
 		</property>
 		<property name="name">
 			<value>Bass</value>
@@ -200,7 +200,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f79d7199-4bd2-402b-9128-6b63ad22a715}">
 		<property name="volume">
-			<value>-33</value>
+			<value>-36</value>
 		</property>
 		<property name="name">
 			<value>Grass</value>
@@ -247,7 +247,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f457fd16-1858-4523-bd2a-bdb3adb81378}">
 		<property name="volume">
-			<value>-15</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>Grass 3</value>
@@ -685,6 +685,9 @@
 	</object>
 	<object class="SpatialiserEffect" id="{4ab6c508-5587-4db0-9034-686448c4fd42}" />
 	<object class="ThreeEQEffect" id="{ff4f37f6-1fa4-4030-b13b-a393c1add988}">
+		<property name="lowGain">
+			<value>-5</value>
+		</property>
 		<property name="highGain">
 			<value>-21</value>
 		</property>
@@ -698,7 +701,7 @@
 	<object class="MixerBusFader" id="{9dd0d85e-4f83-4064-a9b2-c6059d88c31d}" />
 	<object class="ThreeEQEffect" id="{29cad4e1-15a5-4360-b08c-7c94929409bd}">
 		<property name="lowGain">
-			<value>-5</value>
+			<value>-16</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{77d51a83-76c2-43a6-8e50-85daf3542630}" />

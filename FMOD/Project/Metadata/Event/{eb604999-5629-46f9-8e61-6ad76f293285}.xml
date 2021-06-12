@@ -93,7 +93,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{1ecfcc57-7c88-4e6f-b006-48465db0f13e}">
 		<property name="volume">
-			<value>-12</value>
+			<value>5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d6602d30-e7f9-4374-a2fa-2cf6141e8fa5}</destination>
@@ -135,7 +135,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{433dc673-8c0e-4bc0-82b2-f8ff1c8156fd}">
 		<property name="volume">
-			<value>-29.5</value>
+			<value>-23</value>
 		</property>
 		<property name="name">
 			<value>Bass</value>
@@ -521,6 +521,9 @@
 	</object>
 	<object class="SpatialiserEffect" id="{b7aeb530-24e0-468b-a4a2-a60855aaa773}" />
 	<object class="ThreeEQEffect" id="{5a911389-8f6f-42ee-be33-dc4837aa2351}">
+		<property name="lowGain">
+			<value>-5</value>
+		</property>
 		<property name="highGain">
 			<value>-21</value>
 		</property>

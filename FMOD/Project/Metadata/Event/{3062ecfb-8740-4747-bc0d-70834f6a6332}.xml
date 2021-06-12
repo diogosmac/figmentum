@@ -93,7 +93,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{9536fc6b-4161-4262-aed5-3cf4ceeb2eba}">
 		<property name="volume">
-			<value>-12</value>
+			<value>3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{a1a7ae19-2263-49cd-b0b3-10dff6114ccd}</destination>
@@ -132,7 +132,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{899543b9-cb85-473d-8d54-2f48f6385179}">
 		<property name="volume">
-			<value>-29</value>
+			<value>-24</value>
 		</property>
 		<property name="name">
 			<value>Bass</value>
@@ -183,7 +183,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{14a6d978-d7cd-4f7d-97ae-f3d046f70a2b}">
 		<property name="volume">
-			<value>-33</value>
+			<value>-30</value>
 		</property>
 		<property name="name">
 			<value>Dirt</value>
@@ -220,7 +220,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1d5c9f44-b1ad-478b-9c0c-445cb518ad97}">
 		<property name="volume">
-			<value>-22</value>
+			<value>-24</value>
 		</property>
 		<property name="name">
 			<value>Cracking</value>
@@ -509,6 +509,9 @@
 	</object>
 	<object class="SpatialiserEffect" id="{740d0595-a4b9-41be-bfa3-005b9dd53248}" />
 	<object class="ThreeEQEffect" id="{f2c0759f-554c-4232-a1f3-049b374a633b}">
+		<property name="lowGain">
+			<value>-5</value>
+		</property>
 		<property name="highGain">
 			<value>-21</value>
 		</property>

@@ -82,9 +82,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{00015dbb-1dad-4e6d-b08d-afd690c3c9e1}">
-		<property name="volume">
-			<value>-21</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{288be47d-83ab-4bc6-bc07-433c8b09e448}</destination>
 		</relationship>
@@ -139,7 +136,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{aa9af567-4a19-4f64-807f-e48b2c1b55be}">
 		<property name="volume">
-			<value>-45</value>
+			<value>-20</value>
 		</property>
 		<property name="name">
 			<value>Touch</value>
@@ -215,7 +212,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d617f4e0-76ec-4cd3-98ef-21604b46b522}">
 		<property name="volume">
-			<value>-45</value>
+			<value>-26.5</value>
 		</property>
 		<property name="name">
 			<value>Impact</value>
