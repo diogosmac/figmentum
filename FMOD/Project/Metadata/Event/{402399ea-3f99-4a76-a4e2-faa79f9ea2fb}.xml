@@ -5,7 +5,7 @@
 			<value>Opening Door</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5494caaf-2153-4a36-a836-e9cd14108b12}</destination>
@@ -35,7 +35,7 @@
 			<destination>{9a6bb89c-7177-4809-bf65-b65d5d40ce72}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{57b9d9ae-301c-4c08-9cc5-577db30883dc}</destination>
+			<destination>{78107698-510a-41a4-a575-56956a782307}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{7fd2cd6d-016f-4a13-82fc-88ed22e1c785}">
@@ -119,10 +119,14 @@
 		<relationship name="effects">
 			<destination>{5b35978b-1298-4f56-9f7f-8a63481e87d0}</destination>
 			<destination>{691c8e23-4f29-41ad-bb68-b09d8f887712}</destination>
+			<destination>{71ab2887-95a4-4ba2-9422-1637c67588f0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3dcdd840-b307-4987-89d5-e96c7e768796}" />
 	<object class="SingleSound" id="{e6c2fddb-a86b-4f76-bd35-b12a03f4e6bb}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{eace611a-b237-483e-af7b-52a26d6d0e42}</destination>
 		</relationship>
@@ -136,5 +140,19 @@
 	<object class="MixerBusPanner" id="{6899faaa-4813-4638-b048-961b79f99358}" />
 	<object class="MixerBusFader" id="{5b35978b-1298-4f56-9f7f-8a63481e87d0}" />
 	<object class="SpatialiserEffect" id="{691c8e23-4f29-41ad-bb68-b09d8f887712}" />
+	<object class="ConvolutionReverbEffect" id="{71ab2887-95a4-4ba2-9422-1637c67588f0}">
+		<property name="endFrame">
+			<value>35777</value>
+		</property>
+		<property name="wetLevel">
+			<value>-32</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1.5</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7da7948f-9a8f-4c37-8607-b93816d7d967}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{a8cbb137-e44e-4b0d-918f-9cb302fd6d2c}" />
 </objects>

@@ -5,7 +5,7 @@
 			<value>Closing Door</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{5494caaf-2153-4a36-a836-e9cd14108b12}</destination>
@@ -35,7 +35,7 @@
 			<destination>{7bdf9d0b-1a8f-4642-a628-f5d864672ca0}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{57b9d9ae-301c-4c08-9cc5-577db30883dc}</destination>
+			<destination>{78107698-510a-41a4-a575-56956a782307}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{43c2cf46-0fbb-4171-bfb3-19d00c560cf7}">
@@ -119,10 +119,14 @@
 		<relationship name="effects">
 			<destination>{8d93fad9-7cec-44b6-b462-f8a13663133b}</destination>
 			<destination>{99feec76-094b-490f-af2f-5ec29c2d6fc7}</destination>
+			<destination>{1b3419a0-ecdc-49d1-af67-cc27ddf7d6ed}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d977c20f-109f-4de7-8701-173c30f22884}" />
 	<object class="SingleSound" id="{6496c352-1a9a-4990-b43c-701adf561847}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{db538cbe-b455-4cdf-993e-cfb672642cee}</destination>
 		</relationship>
@@ -135,6 +139,27 @@
 	</object>
 	<object class="MixerBusPanner" id="{08a44c91-f550-48a0-ad47-ec21db978297}" />
 	<object class="MixerBusFader" id="{8d93fad9-7cec-44b6-b462-f8a13663133b}" />
-	<object class="SpatialiserEffect" id="{99feec76-094b-490f-af2f-5ec29c2d6fc7}" />
+	<object class="SpatialiserEffect" id="{99feec76-094b-490f-af2f-5ec29c2d6fc7}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>8.40000057</value>
+		</property>
+	</object>
+	<object class="ConvolutionReverbEffect" id="{1b3419a0-ecdc-49d1-af67-cc27ddf7d6ed}">
+		<property name="endFrame">
+			<value>35777</value>
+		</property>
+		<property name="wetLevel">
+			<value>-32</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1.5</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7da7948f-9a8f-4c37-8607-b93816d7d967}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{579d2a2f-ac6b-4c96-9ec5-23ca627b189b}" />
 </objects>

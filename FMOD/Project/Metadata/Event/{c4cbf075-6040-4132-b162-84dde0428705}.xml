@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{c4cbf075-6040-4132-b162-84dde0428705}">
 		<property name="name">
-			<value>Picking Card</value>
+			<value>PickCard</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{5494caaf-2153-4a36-a836-e9cd14108b12}</destination>
+			<destination>{b6271c62-38cd-40e7-8a9b-d924f49917f9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{dcd8d39c-cc43-47f1-aff0-7eed61c8a87c}</destination>
@@ -35,7 +35,7 @@
 			<destination>{52e31cbb-dbb9-465c-a4a8-ae70611bbb2a}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{57b9d9ae-301c-4c08-9cc5-577db30883dc}</destination>
+			<destination>{78107698-510a-41a4-a575-56956a782307}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{dcd8d39c-cc43-47f1-aff0-7eed61c8a87c}">
@@ -80,6 +80,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2ac597cf-822c-467b-8792-4a2bb5d94ba0}">
+		<property name="volume">
+			<value>5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{4ce5b15e-14af-4ebb-ba70-0660a3abd2ec}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{76805ef6-e400-43a2-abe8-bd76e16c5c0c}</destination>
 		</relationship>
@@ -115,14 +121,50 @@
 			<destination>{2ac597cf-822c-467b-8792-4a2bb5d94ba0}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{4ce5b15e-14af-4ebb-ba70-0660a3abd2ec}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>224.358963</value>
+		</property>
+		<property name="attackShape">
+			<value>1</value>
+		</property>
+		<property name="peakValue">
+			<value>-13.6888924</value>
+		</property>
+		<property name="holdTime">
+			<value>20</value>
+		</property>
+		<property name="decayTime">
+			<value>120</value>
+		</property>
+		<property name="sustainValue">
+			<value>-80</value>
+		</property>
+		<property name="releaseTime">
+			<value>0</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{76805ef6-e400-43a2-abe8-bd76e16c5c0c}">
 		<relationship name="effects">
 			<destination>{e5c67855-21ee-43db-91a8-e86060aec9c1}</destination>
+			<destination>{6fb402c6-8ead-42d5-949b-c612f3c712d8}</destination>
 			<destination>{c09d06c4-a6d6-4a17-81b1-7b693d7ce08c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{574f889e-513d-4fa0-93c0-d91009dd925c}" />
 	<object class="SingleSound" id="{d039646c-d1a9-49fd-9440-7f6586356b6a}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{c11e076e-9791-4880-955c-3a674795aeba}</destination>
 		</relationship>
@@ -135,6 +177,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{0a237322-c244-45a7-9e16-9e42f7d7fa94}" />
 	<object class="MixerBusFader" id="{e5c67855-21ee-43db-91a8-e86060aec9c1}" />
+	<object class="ConvolutionReverbEffect" id="{6fb402c6-8ead-42d5-949b-c612f3c712d8}">
+		<property name="endFrame">
+			<value>35777</value>
+		</property>
+		<property name="wetLevel">
+			<value>-44</value>
+		</property>
+		<property name="dryLevel">
+			<value>-1.5</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{7da7948f-9a8f-4c37-8607-b93816d7d967}</destination>
+		</relationship>
+	</object>
 	<object class="SpatialiserEffect" id="{c09d06c4-a6d6-4a17-81b1-7b693d7ce08c}" />
 	<object class="MixerBusFader" id="{900a5e84-964b-4b27-a509-75ec46202293}" />
 </objects>

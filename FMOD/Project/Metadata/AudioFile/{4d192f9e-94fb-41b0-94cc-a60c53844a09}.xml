@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{4d192f9e-94fb-41b0-94cc-a60c53844a09}">
 		<property name="assetPath">
-			<value>TV Static.wav</value>
+			<value>Ambient/Diegetic/TV Static.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

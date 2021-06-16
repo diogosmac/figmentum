@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{00a66362-e71a-4ee7-b8eb-bf2e182b05b7}</destination>
+			<destination>{b6271c62-38cd-40e7-8a9b-d924f49917f9}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{db706b6d-ad82-46a1-b661-451823012ce0}</destination>
@@ -35,7 +35,7 @@
 			<destination>{7423dcc6-3b33-448a-9fb6-bc9dfc611a54}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{57b9d9ae-301c-4c08-9cc5-577db30883dc}</destination>
+			<destination>{1e8f0532-612d-455e-b859-4afc49b8ab28}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{db706b6d-ad82-46a1-b661-451823012ce0}">
@@ -123,6 +123,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{92f27c65-873a-4f5f-9158-61bff7d1ea76}" />
 	<object class="SingleSound" id="{8d3b0e81-8992-4aa7-b435-585213d8cf77}">
+		<property name="volume">
+			<value>-13</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{f0f0dd64-51a8-47f5-989b-a4c04882bd98}</destination>
 		</relationship>
