@@ -3,6 +3,13 @@
 	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "PetStore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "FMODStudio",
@@ -10,9 +17,9 @@
 		}
 	],
 	"TargetPlatforms": [
-		"AllDesktop",
 		"WindowsNoEditor",
-		"LinuxNoEditor",
-		"MacNoEditor"
+		"MacNoEditor",
+		"AllDesktop",
+		"LinuxNoEditor"
 	]
 }
